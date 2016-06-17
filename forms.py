@@ -97,4 +97,3 @@ class MyForm(Form):
     a_org_name      = StringField('Наименование организации', validators = [Length(max=52)])
     a_org_addr      = StringField('Факт. адрес', validators = [Length(max=52)])
     a_org_inn       = StringField('ИНН', validators = [Length(max=12)])
-

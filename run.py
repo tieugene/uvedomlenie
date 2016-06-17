@@ -1,5 +1,5 @@
 #!/bin/env python
 # -*- coding: utf-8 -*-
 
-from app import app
+from __init__ import app
 app.run(debug = True)

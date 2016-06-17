@@ -3,7 +3,7 @@
 # 1. Flask
 from flask import render_template, Response
 # 2. My app
-from app import app
+from __init__ import app
 from forms import MyForm
 # 3. 3rd parties
 import trml2pdf
